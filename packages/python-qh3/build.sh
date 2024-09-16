@@ -12,7 +12,9 @@ TERMUX_PKG_UPDATE_TAG_TYPE="newest-tag"
 TERMUX_PKG_PYTHON_COMMON_DEPS="wheel, maturin"
 
 termux_step_configure() {
+	termux_setup_cmake
 	termux_setup_rust
+	export ANDROID_NDK="$NDK"
 	export CARGO_BUILD_TARGET=${CARGO_TARGET_NAME}
 	export PYO3_CROSS_LIB_DIR=$TERMUX_PREFIX/lib
 }
