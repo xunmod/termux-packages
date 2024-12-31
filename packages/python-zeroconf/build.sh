@@ -1,10 +1,10 @@
 TERMUX_PKG_HOMEPAGE=https://github.com/python-zeroconf/python-zeroconf
 TERMUX_PKG_DESCRIPTION="A pure python implementation of multicast DNS service discovery"
 TERMUX_PKG_LICENSE="LGPL-2.1"
-TERMUX_PKG_MAINTAINER="@termux"
-TERMUX_PKG_VERSION="0.134.0"
+TERMUX_PKG_MAINTAINER="@xunmod"
+TERMUX_PKG_VERSION="0.136.2"
 TERMUX_PKG_SRCURL=https://pypi.io/packages/source/z/zeroconf/zeroconf-${TERMUX_PKG_VERSION}.tar.gz
-TERMUX_PKG_SHA256=5be2c3a61cc81eb1bd4684bbdee19d708522d94bc8ac60dfe001a0fde4421092
+TERMUX_PKG_SHA256=37d223febad4569f0d14563eb8e80a9742be35d0419847b45d84c37fc4224bb4
 TERMUX_PKG_AUTO_UPDATE=true
 TERMUX_PKG_DEPENDS="python"
 TERMUX_PKG_PYTHON_COMMON_DEPS="wheel, setuptools, poetry-core, Cython"
